@@ -52,3 +52,12 @@
     </div>
 </div>
 @endsection
+
+@section('scripts')
+    <script>
+        window.user = {!! Auth::user() !!};
+        window.Laravel = {!! json_encode([
+            'csrfToken' => csrf_token(),
+        ]) !!};
+    </script>
+@endsection

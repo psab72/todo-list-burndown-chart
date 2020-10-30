@@ -1,4 +1,4 @@
-## Laravel With Vue.js and Chart.js Todo List Burndown Chart
+## Laravel 7 With Vue.js and Chart.js Todo List Burndown Chart
 
 ### Installation
 ```
